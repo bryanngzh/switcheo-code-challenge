@@ -7,15 +7,12 @@ function App() {
   return (
     <div className="App">
       <>
-      <HStack spacing={10}>
         <Stack>
           <Heading>
             Transfer $SWTH Tokens
           </Heading>
           <Forms />
         </Stack>
-        <Image src={logo}/>
-      </HStack>
       </>
     </div>
   );

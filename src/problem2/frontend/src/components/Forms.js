@@ -74,12 +74,10 @@ const Forms = () => {
     }
 
     const isAmountValid = (amount) => {
-        // Ethereum addresses are 40 characters long and start with "0x"
         return !(isNaN(parseFloat(amount)) || /\s/.test(amount))
     }
 
     const isOtpValid = (amount) => {
-        // Ethereum addresses are 40 characters long and start with "0x"
         return !(isNaN(parseFloat(amount)) || /\s/.test(amount))
     }
 
@@ -146,6 +144,7 @@ const Forms = () => {
             
         </form>
     )
+
 }
 
 export default Forms
